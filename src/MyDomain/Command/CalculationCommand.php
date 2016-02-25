@@ -1,5 +1,7 @@
 <?php
 
+namespace MyNamespace\MyDomain\Command;
+
 /**
  * This class is used as date_class in form component
  */

@@ -1,5 +1,7 @@
 <?php
 
+namespace MyNamespace\MyDomain\Entity;
+
 class DormerCalculationPrice
 {
     private $name;

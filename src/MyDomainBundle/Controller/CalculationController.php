@@ -1,5 +1,10 @@
 <?php
 
+namespace MyNamespace\MyDomainBundle\Controller;
+
+use MyNamespace\MyDomain\Command\CalculationCommand;
+use MyNamespace\MyDomain\Handler\CalculationHandler;
+
 class CalculationController
 {
     /**

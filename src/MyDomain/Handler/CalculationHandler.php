@@ -1,5 +1,11 @@
 <?php
 
+namespace MyNamespace\MyDomain\Handler;
+
+use EntityManager;
+use MyNamespace\MyDomain\Command\CalculationCommand;
+use MyNamespace\MyDomain\Entity\DormerCalculation;
+
 class CalculationHandler
 {
     /**
